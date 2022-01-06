@@ -3,11 +3,13 @@
 body {
     font-family: 'Archivo Narrow', sans-serif;
     font-family: 'Jost', sans-serif;
+    background-color: rgb(220, 248, 239);
 }
 
 section {
     padding-left: 4%;
     padding-right: 4%;
+    padding-bottom: 5%;
 }
 
 .content_article {
@@ -18,14 +20,30 @@ section {
     width: 50%;
 }
 
+.width_ratio_images {
+    width: 40%;
+}
+
+.width_ratio_text {
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 1%;
+}
+
 
 /*Common Section End */
 
 
 /* text justify For all paragraph and highlight same color text*/
 
+.heading_txt_size {
+    font-size: 35px;
+    font-weight: 900;
+}
+
 p {
     text-align: justify;
+    font-size: 25px;
     color: rgb(13 15 16);
 }
 
@@ -34,15 +52,15 @@ p {
 }
 
 #top_heading p {
-    font-size: 32px;
     border-left: 3px solid rgb(12, 241, 108);
+    font-size: 40px;
     padding-left: 10px;
 }
 
 
 /* button Style Start*/
 
-#explore_btn_position {
+.btn_position {
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -51,8 +69,10 @@ p {
     text-decoration: none;
     background-color: rgb(12, 241, 108);
     color: rgb(255, 255, 255);
+    margin-top: 5%;
     padding: 9px 20px;
     border-radius: 5px;
+    border-style: none;
 }
 
 
@@ -66,23 +86,110 @@ p {
 }
 
 #mision_area {
-    background-color: rgb(153, 252, 219);
+    background-color: rgb(129, 253, 212);
     margin: 0 8px;
     border-radius: 10px;
+    width: 32%;
 }
 
 #vision_area {
-    background-color: rgb(129, 253, 212);
+    background-color: rgb(56, 247, 183);
     border-radius: 10px;
     margin: 0 8px;
+    width: 32%;
 }
 
 #goal_area {
-    background-color: rgb(153, 252, 219);
+    background-color: rgb(182, 255, 231);
     border-radius: 10px;
     margin: 0 8px;
+    width: 32%;
 }
 
 .mision_txt_mrgn {
     padding: 0 5%;
+}
+
+
+/****** Development Limit Section **/
+
+#my_instructor {
+    padding-top: 7%;
+}
+
+.left_align_txt {
+    padding-right: 7%;
+}
+
+.contact_section {
+    display: flex;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.input_group_left {
+    width: 40%;
+}
+
+.input_group_right {
+    width: 60%;
+    padding-left: 10%;
+}
+
+.contact_form_text {
+    font-size: 25px;
+    color: rgb(13 15 16);
+}
+
+.input_box {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(129, 253, 212);
+    font-size: 20px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.message_box {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(129, 253, 212);
+    opacity: 70%;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.submit_btn {
+    text-decoration: none;
+    background-color: rgb(12, 241, 108);
+    color: rgb(255, 255, 255);
+    margin-top: 2%;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+/*footer Item*/
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    height: 130px;
+}
+
+.footer_txt_color {
+    color: azure;
+}
+
+.footer_item {
+    margin: auto;
+    width: 16%;
+    padding-top: 1%;
+}
+
+#small_txt {
+    font-size: 10px;
 }
